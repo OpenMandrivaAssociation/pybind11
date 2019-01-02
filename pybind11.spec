@@ -14,15 +14,10 @@ Patch1:  pybind11-2.2.3-nopip.patch
 # Needed to build the python libraries
 BuildRequires: python2-devel
 BuildRequires: python2-setuptools
-# These are only needed for the checks
-BuildRequires: python2-numpy
 
 # Needed to build the python libraries
 BuildRequires: python3-devel
 BuildRequires: python-setuptools
-# These are only needed for the checks
-BuildRequires: python-pytest
-BuildRequires: python-numpy
 
 BuildRequires: eigen3-devel
 BuildRequires: gcc-c++
