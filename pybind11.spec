@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    pybind11
-Version:	2.3.0
+Version:	2.5.0
 Release:	1
 Summary: Seamless operability between C++11 and Python
 License: BSD
