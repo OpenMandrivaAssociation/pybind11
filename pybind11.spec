@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    pybind11
-Version:	2.3.0
+Version:	2.5.0
 Release:	1
 Summary: Seamless operability between C++11 and Python
 License: BSD
@@ -9,7 +9,7 @@ URL:	 https://github.com/pybind/pybind11
 Source0: https://github.com/pybind/pybind11/archive/v%{version}/%{name}-%{version}.tar.gz
 
 # Don't use pip to get path to headers
-Patch1:  pybind11-2.2.3-nopip.patch
+#Patch1:  pybind11-2.2.3-nopip.patch
 
 # Needed to build the python libraries
 BuildRequires: python2-devel
@@ -64,7 +64,7 @@ This package contains the Python 3 files.
 
 %prep
 %setup -q
-%patch1 -p1 -b .nopip
+#patch1 -p1 -b .nopip
 
 %build
 for py in python2 python3; do
