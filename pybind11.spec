@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    pybind11
-Version:	2.5.0
+Version:	2.6.1
 Release:	1
 Summary: Seamless operability between C++11 and Python
 License: BSD
@@ -64,7 +64,6 @@ This package contains the Python 3 files.
 
 %prep
 %setup -q
-#patch1 -p1 -b .nopip
 
 %build
 for py in python2 python3; do
