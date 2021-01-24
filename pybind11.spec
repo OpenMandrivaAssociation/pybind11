@@ -90,6 +90,7 @@ PYBIND11_USE_CMAKE=true python3 setup.py install --root %{buildroot} "--install-
 
 %files devel
 %doc README.rst LICENSE
+%{_bindir}/pybind11-config
 %{_includedir}/pybind11/
 %{_datadir}/cmake/pybind11/
 
