@@ -89,7 +89,7 @@ PYBIND11_USE_CMAKE=true python2 setup.py install --root %{buildroot} "--install-
 PYBIND11_USE_CMAKE=true python3 setup.py install --root %{buildroot} "--install-purelib" "%{python3_sitearch}"
 
 %files devel
-%doc README.md LICENSE
+%doc README.rst LICENSE
 %{_includedir}/pybind11/
 %{_datadir}/cmake/pybind11/
 
