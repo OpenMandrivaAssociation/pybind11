@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    pybind11
-Version:	2.5.0
+Version:	2.6.1
 Release:	1
 Summary: Seamless operability between C++11 and Python
 License: BSD
@@ -64,7 +64,6 @@ This package contains the Python 3 files.
 
 %prep
 %setup -q
-#patch1 -p1 -b .nopip
 
 %build
 for py in python2 python3; do
@@ -90,7 +89,8 @@ PYBIND11_USE_CMAKE=true python2 setup.py install --root %{buildroot} "--install-
 PYBIND11_USE_CMAKE=true python3 setup.py install --root %{buildroot} "--install-purelib" "%{python3_sitearch}"
 
 %files devel
-%doc README.md LICENSE
+%doc README.rst LICENSE
+%{_bindir}/pybind11-config
 %{_includedir}/pybind11/
 %{_datadir}/cmake/pybind11/
 
