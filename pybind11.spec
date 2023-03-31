@@ -2,7 +2,7 @@
 
 Name:    pybind11
 Version:	2.10.0
-Release:	1
+Release:	2
 Summary: Seamless operability between C++11 and Python
 License: BSD
 URL:	 https://github.com/pybind/pybind11
