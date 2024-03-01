@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:    pybind11
-Version:	2.10.0
-Release:	2
+Version:	2.11.1
+Release:	1
 Summary: Seamless operability between C++11 and Python
 License: BSD
 URL:	 https://github.com/pybind/pybind11
@@ -62,6 +62,7 @@ PYBIND11_USE_CMAKE=true python setup.py install --root %{buildroot} "--install-p
 %{_bindir}/pybind11-config
 %{_includedir}/pybind11/
 %{_datadir}/cmake/pybind11/
+%{_datadir}/pkgconfig/pybind11.pc
 
 %files -n python-%{name}
 %{python3_sitearch}/%{name}/
