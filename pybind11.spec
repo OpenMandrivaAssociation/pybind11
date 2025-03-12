@@ -15,7 +15,7 @@ Source0: https://github.com/pybind/pybind11/archive/v%{version}/%{name}-%{versio
 BuildRequires: python-devel
 BuildRequires: python-setuptools
 
-BuildRequires: eigen3-devel
+BuildRequires: eigen-devel
 BuildRequires: cmake
 BuildRequires: ninja
 
