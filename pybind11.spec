@@ -2,7 +2,7 @@
 
 Name:    pybind11
 Version:	2.13.6
-Release:	1
+Release:	2
 Summary: Seamless operability between C++11 and Python
 License: BSD
 URL:	 https://github.com/pybind/pybind11
@@ -15,7 +15,7 @@ Source0: https://github.com/pybind/pybind11/archive/v%{version}/%{name}-%{versio
 BuildRequires: python-devel
 BuildRequires: python-setuptools
 
-BuildRequires: eigen3-devel
+BuildRequires: eigen-devel
 BuildRequires: cmake
 BuildRequires: ninja
 
