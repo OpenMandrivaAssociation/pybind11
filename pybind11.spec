@@ -69,5 +69,5 @@ export PYBIND11_USE_CMAKE=true
 %{_datadir}/pkgconfig/pybind11.pc
 
 %files -n python-%{name}
-%{python_sitearch}/%{name}/
-%{python_sitearch}/%{name}-%{version}-*.*-info
+%{python_sitelib}/%{name}/
+%{python_sitelib}/%{name}-%{version}.dist-info
