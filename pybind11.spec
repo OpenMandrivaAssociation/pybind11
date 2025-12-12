@@ -13,6 +13,7 @@ Source0:	https://github.com/pybind/pybind11/archive/v%{version}/%{name}-%{versio
 
 # Needed to build the python libraries
 BuildRequires: python-devel
+BuildRequires: python%{pyver}dist(scikit-build-core)
 BuildRequires: python%{pyver}dist(setuptools)
 BuildRequires: python%{pyver}dist(pip)
 
