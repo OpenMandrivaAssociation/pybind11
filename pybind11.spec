@@ -58,7 +58,8 @@ This package contains the Python 3 files.
 
 %install
 %ninja_install -C build
-PYBIND11_USE_CMAKE=true %py_install
+export PYBIND11_USE_CMAKE=true
+%py_install
 
 %files devel
 %doc README.rst LICENSE
