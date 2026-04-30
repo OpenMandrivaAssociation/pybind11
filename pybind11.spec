@@ -1,10 +1,11 @@
 %global debug_package %{nil}
 
 Name:		pybind11
-Version:	3.0.3
-Release:	1
 Summary:	Seamless operability between C++11 and Python
-License:	BSD
+Version:	3.0.4
+Release:	1
+License:	BSD-3-Clause
+Group:		Development/Python
 URL:		https://github.com/pybind/pybind11
 Source0:	https://github.com/pybind/pybind11/archive/v%{version}/%{name}-%{version}.tar.gz
 
