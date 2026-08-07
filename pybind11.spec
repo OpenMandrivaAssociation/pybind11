@@ -2,7 +2,7 @@
 
 Name:		pybind11
 Summary:	Seamless operability between C++11 and Python
-Version:	3.0.4
+Version:	3.1.0
 Release:	1
 License:	BSD-3-Clause
 Group:		Development/Python
@@ -41,7 +41,7 @@ This package contains the development headers for pybind11.
 %package -n     python-%{name}
 Summary:        %{summary}
 
-Requires: %{name}-devel = %{version}-%{release}
+Requires: %{name}-devel = %{EVRD}
 
 %description -n python-%{name}
 %{base_description}
