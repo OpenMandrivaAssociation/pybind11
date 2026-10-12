@@ -3,7 +3,7 @@
 Name:		pybind11
 Summary:	Seamless operability between C++11 and Python
 Version:	3.1.0
-Release:	1
+Release:	2
 License:	BSD-3-Clause
 Group:		Development/Python
 URL:		https://github.com/pybind/pybind11
